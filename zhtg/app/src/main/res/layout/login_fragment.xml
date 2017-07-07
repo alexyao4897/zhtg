@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/subview_color">
+
+ <RelativeLayout
+     android:layout_width="match_parent"
+     android:layout_height="wrap_content"
+     android:layout_centerVertical="true"
+     android:layout_marginLeft="20dp"
+     android:layout_marginRight="20dp">
+
+ <TextView
+     android:id="@+id/login_btn"
+     android:layout_width="match_parent"
+     android:layout_height="wrap_content"
+     android:text="登录"
+     android:textSize="18sp"
+     android:padding="10dp"
+     android:background="@color/text_blue"
+     android:textColor="@color/common_white"
+     android:gravity="center"/>
+
+ <TextView
+     android:id="@+id/logout_btn"
+     android:layout_width="match_parent"
+     android:layout_height="wrap_content"
+     android:padding="10dp"
+     android:layout_below="@id/login_btn"
+     android:textSize="18sp"
+     android:layout_marginTop="30dp"
+     android:text="登出"
+     android:background="@color/text_blue"
+     android:textColor="@color/common_white"
+     android:gravity="center"/>
+
+     <TextView
+         android:id="@+id/pay_btn"
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:padding="10dp"
+         android:layout_below="@id/logout_btn"
+         android:textSize="18sp"
+         android:layout_marginTop="30dp"
+         android:text="支付"
+         android:background="@color/text_blue"
+         android:textColor="@color/common_white"
+         android:gravity="center"/>
+ </RelativeLayout>
+</RelativeLayout>

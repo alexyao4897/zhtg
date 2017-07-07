@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/rank_list_title_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:background="@color/common_white">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="排名"
+            android:textSize="18sp"
+            android:layout_marginLeft="10dp"
+            android:textColor="@color/yc_list_title_tv_color"
+            android:padding="10dp"/>
+
+        <TextView
+            android:id="@+id/list_tilte_zhang_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="看涨"
+            android:textSize="18sp"
+            android:layout_marginRight="10dp"
+            android:layout_alignParentRight="true"
+            android:textColor="@color/yc_list_title_tv_color"
+            android:padding="10dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/yc_list_title_tv_color"
+            android:text="股票名称"
+            android:textSize="18sp"
+            android:layout_toLeftOf="@id/list_tilte_zhang_tv"
+            android:layout_marginRight="50dp"
+            android:padding="10dp"/>
+
+</RelativeLayout>
+
